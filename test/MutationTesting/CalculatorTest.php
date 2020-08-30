@@ -24,6 +24,6 @@ class CalculatorTest extends TestCase
 
     public function testAdd003(): void
     {
-        $this->assertEquals(2, $this->calculator->add(2, 0));
+        $this->assertEquals(3, $this->calculator->add(2, 1));
     }
 }
