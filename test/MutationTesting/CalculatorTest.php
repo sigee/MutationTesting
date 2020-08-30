@@ -19,7 +19,7 @@ class CalculatorTest extends TestCase
 
     public function testAdd001(): void
     {
-        $this->assertEquals(0, $this->calculator->add(0, 0));
+        $this->assertEquals(-2, $this->calculator->add(1, 1));
     }
 
     public function testAdd003(): void
