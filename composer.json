@@ -1,0 +1,22 @@
+{
+  "name": "sigee/MutationTesting",
+  "type": "project",
+  "description": "Mutation Testing Demo",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "sigee",
+      "email": "sigee15@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "php": "^7.2.9",
+    "phpunit/phpunit": "8.5.8",
+    "infection/infection": "0.15.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "MutationTesting\\": "src/MutationTesting/"
+    }
+  }
+}
